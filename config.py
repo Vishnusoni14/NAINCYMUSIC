@@ -18,17 +18,17 @@ BOT_NAME = getenv("BOT_NAME", "˹𝐌𝐞𝐨𝐧𝐚 ✘ 𝐌𝐮𝐬𝐢𝐜˼
 ASSUSERNAME = getenv("ASSUSERNAME", "musicxmeona")
 EVALOP = list(map(int, getenv("EVALOP", "7164385221").split()))
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
-LOGGER_ID = int(getenv("LOGGER_ID", -1001549596584))
+LOGGER_ID = int(getenv("LOGGER_ID", -1001550054357))
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # External APIs - Get these from their respective providers
 GPT_API = getenv("GPT_API")
 DEEP_API = getenv("DEEP_API")
-OWNER_ID = int(getenv("OWNER_ID", 7347112176))
+OWNER_ID = int(getenv("OWNER_ID", 6391774843))
 
 # Heroku deployment settings - Refer to Heroku documentation on how to obtain these
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/doraemon890/ANNIE-X-MUSIC")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/MOON-CODES/ANNIE-X-MUSIC")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
