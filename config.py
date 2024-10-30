@@ -12,18 +12,18 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Specify where to get the following credentials
-OWNER_USERNAME = getenv("OWNER_USERNAME", "LYCNXO7")
-BOT_USERNAME = getenv("BOT_USERNAME", "MEONAxMUSICBOT")
-BOT_NAME = getenv("BOT_NAME", "˹𝐌𝐞𝐨𝐧𝐚 ✘ 𝐌𝐮𝐬𝐢𝐜˼ ♪")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "queen143np")
+BOT_USERNAME = getenv("BOT_USERNAME", "Niyotomusic_bot")
+BOT_NAME = getenv("BOT_NAME", "˹NIYTO ✘ 𝐌𝐮𝐬𝐢𝐜˼ ♪")
 ASSUSERNAME = getenv("ASSUSERNAME", "musicxmeona")
-EVALOP = list(map(int, getenv("EVALOP", "7164385221").split()))
+EVALOP = list(map(int, getenv("EVALOP", "7526369190").split()))
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
-LOGGER_ID = int(getenv("LOGGER_ID", -1001550054357))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002494871325))
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # External APIs - Get these from their respective providers
 GPT_API = getenv("GPT_API")
 DEEP_API = getenv("DEEP_API")
-OWNER_ID = int(getenv("OWNER_ID", 6391774843))
+OWNER_ID = int(getenv("OWNER_ID", 7526369190))
 
 # Heroku deployment settings - Refer to Heroku documentation on how to obtain these
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
@@ -33,8 +33,8 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Support and contact information - Provide your own support channels
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/about_devu")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Anime_leaf_group")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/niyoto_supoort")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/waifexanime")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -82,13 +82,12 @@ autoclean = []
 confirmer = {}
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://envs.sh/WxZ.jpg"
-)
+    "START_IMG_URL", "https://envs.sh/0am.jpg")
 PING_VID_URL = getenv(
     "PING_VID_URL", "https://telegra.ph/file/4be43ed2aa6872337e9a8.mp4"
 )
-PLAYLIST_IMG_URL = "https://telegra.ph/file/94e9eca3b0ec6e2dc6cd5.png"
-STATS_VID_URL = "https://telegra.ph/file/e2ab6106ace2e95862372.mp4"
+PLAYLIST_IMG_URL = "https://envs.sh/0am.jpg"
+STATS_VID_URL = "https://envs.sh/0am.jpg"
 TELEGRAM_AUDIO_URL = "https://telegra.ph/file/ef5bdba78c475a9e50d24.jpg"
 TELEGRAM_VIDEO_URL = "https://telegra.ph/file/c8db17e1612487be13571.jpg"
 STREAM_IMG_URL = "https://telegra.ph/file/6a81d918bd5d44c646205.jpg"
