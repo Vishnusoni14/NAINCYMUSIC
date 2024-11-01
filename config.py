@@ -13,12 +13,12 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Specify where to get the following credentials
 OWNER_USERNAME = getenv("OWNER_USERNAME", "untold_coder4")
-BOT_USERNAME = getenv("BOT_USERNAME", "AnnieMusicRobot")
+BOT_USERNAME = getenv("BOT_USERNAME", "moonlightmusicRobot")
 BOT_NAME = getenv("BOT_NAME", "˹ 𝗬𝗢𝗥 𝗫 𝗠𝗨𝗦𝗜𝗖 ˼ ♪")
-ASSUSERNAME = getenv("ASSUSERNAME", "YorXAssistant")
-EVALOP = list(map(int, getenv("EVALOP", "6209871909").split()))
+ASSUSERNAME = getenv("ASSUSERNAME", "moonXAssistant")
+EVALOP = list(map(int, getenv("EVALOP", "7154103754").split()))
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
-LOGGER_ID = int(getenv("LOGGER_ID", -1002014167331))
+LOGGER_ID = int(getenv("LOGGER_ID", -1001550054357))
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # External APIs - Get these from their respective providers
 GPT_API = getenv("GPT_API")
