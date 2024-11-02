@@ -2,8 +2,8 @@ import math
 
 from pyrogram.types import InlineKeyboardButton
 
-from BrandrdXMusic.utils.formatters import time_to_seconds
-from BrandrdXMusic import app
+from ANNIEMUSIC.utils.formatters import time_to_seconds
+from ANNIEMUSIC import app
 
 def track_markup(_, videoid, user_id, channel, fplay):
     buttons = [
@@ -68,10 +68,10 @@ def stream_markup_timer(_, vidid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/BRANDEDKING8"
+                text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/untold_coder4"
             ),
             InlineKeyboardButton(
-                text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/BRANDED_WORLD"
+                text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/music_support4"
             ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -90,10 +90,10 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/BRANDEDKING8"
+                text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/untold_coder4"
             ),
             InlineKeyboardButton(
-                text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/BRANDED_WORLD"
+                text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/music_support4"
             ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -245,10 +245,10 @@ def stream_markup2(_, chat_id):
         ],
 [
             InlineKeyboardButton(
-                text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/BRANDEDKING8"
+                text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/untold_coder4"
             ),
             InlineKeyboardButton(
-                text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/BRANDED_WORLD"
+                text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/music_support4"
             ),
         ],
 
