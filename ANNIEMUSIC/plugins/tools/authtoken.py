@@ -3,8 +3,8 @@ import os
 from pyrogram import filters
 from yt_dlp import YoutubeDL
 
-from VIPMUSIC import app
-from VIPMUSIC.misc import SUDOERS
+from ANNIEMUSIC import app
+from ANNIEMUSIC.misc import SUDOERS
 
 
 async def check_cookies(video_url):
