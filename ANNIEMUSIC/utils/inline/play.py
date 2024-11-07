@@ -60,10 +60,10 @@ def stream_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/untold_coder4"
+                text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/vishnusoni14"
             ),
             InlineKeyboardButton(
-                text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/world_friend_chatting_zone"
+                text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/NAINCY_UPDATES"
             ),
          ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -110,10 +110,10 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/untold_coder4"
+                text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/vishnusoni14"
             ),
             InlineKeyboardButton(
-                text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/world_friend_chatting_zone"
+                text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/NAINCY_UPDATES"
             ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -133,10 +133,10 @@ def stream_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/untold_coder4"
+                text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/vishnusoni14"
             ),
             InlineKeyboardButton(
-                text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/world_friend_chatting_zone"
+                text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/NAINCY_UPDATES"
             ),
          ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
